@@ -1,0 +1,122 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+body {
+    background-color: #d87c3c;
+    font-family: "Lilita One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 1rem;
+    color: #f4d9ba;
+    line-height: 1.6;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2rem;
+    text-align: center;
+}
+
+#title {
+    font-family: "Meow Script", cursive;
+    font-weight: bold;
+    font-style: normal;
+    font-size: 4rem;
+    margin-bottom: 1rem;
+    color: #ffffff;
+}
+
+p {
+    font-size: 1.2rem;
+    font-weight: lighter;
+    max-width: 600px;
+    margin: 0 auto 1.5rem auto;
+}
+
+a {
+    text-decoration: none;
+    color: #ffc9ce;
+    padding: 5px 5px;
+}
+a:hover {
+    color: #ef4443;
+}
+
+#explore, button {
+    font-size: 1.5rem;
+    background-color: #ef4443;
+    margin: 2rem 0;
+    padding: 1rem 2rem;
+    border: 1px solid #ffc9ce;
+    display: inline-block;
+    color: white;
+    border-radius: 50px;
+}
+#explore:hover, button:hover {
+    background-color: #d63837;
+}
+
+button:disabled {
+    background-color: #5a2626;
+    color: rgba(255, 255, 255, 0.5);
+}
+
+nav {
+    width: 80%;
+    margin-bottom: 3rem;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+nav a {
+    color: #f4d9ba;
+    font-size: 1.1rem;
+    border-bottom: 2px solid transparent;
+}
+
+nav a:hover {
+    color: #ef4443;
+    border-bottom: 2px solid #ef4443;
+}
+
+.container, .idea {
+    background: rgba(255, 255, 255, 0.05);
+    padding: 2rem;
+    border-radius: 20px;
+    margin-top: 2rem;
+    border: 2px dashed #f4d9ba;
+}
+
+#cat-fact {
+    color: #fff;
+    font-style: italic;
+    margin-top: 1rem;
+    min-height: 1.5rem;
+}
+
+h1 {
+    margin-bottom: 1rem;
+    font-size: 3rem;
+    color: #ffffff;
+}
+
+#cat-img {
+    margin-top: 2rem;
+    max-width: 90%;
+    max-height: 500px;
+    border-radius: 15px;
+    border: 5px solid #f4d9ba;
+    object-fit: cover;
+}
+
+.idea {
+    font-style: italic;
+    color: #ffffff;
+}
